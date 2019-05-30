@@ -1,5 +1,5 @@
 pyhton  redis_check_defaultPORT.py    url.txt   20
 
-指定一个url.txt ,指定线程20 
+鎸囧畾涓�涓猽rl.txt ,鎸囧畾绾跨▼20 
 
-里面的参数可以修改，比如默认的密码，默认的端口
+宸ュ叿閲岄潰鐨勯粯璁ゅ弬鏁板彲浠ヤ慨鏀癸紝姣斿瀵嗙爜瀛楀吀锛岄粯璁ょ殑绔彛瀛楀吀
