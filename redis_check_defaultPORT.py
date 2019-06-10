@@ -1,6 +1,6 @@
 # _*_  coding:utf-8 _*_
 #! /usr/bin/env python
-# changed by Jyanger qq:1725458722
+# changed by Jyanger 
 import socket
 import random
 import sys
