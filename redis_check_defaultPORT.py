@@ -19,7 +19,7 @@ class MyThread(threading.Thread):
             try:
                 ip = self.queue.get(block=False)   # 如果队列空了，直接结束线程。根据具体场景不同可能不合理，可以修改
                 check(ip,)
-            except Exception,e:
+            except Exception as e:
                 break    
 
 def check(ip):
@@ -45,7 +45,7 @@ def check(ip):
                         print "[+]                 {}                {}              week_password: {} ".format(ip,port,pass_)
 
                 
-        except Exception, e:
+        except Exception as e:
             pass
     
 def run(ipaddress,Thread_count):                     #此处设置线程数
