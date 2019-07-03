@@ -55,6 +55,7 @@ def run(ipaddress,Thread_count):                     #此处设置线程数
     file = open(ipaddress,'r')
     for url in file.readlines():
         url=url.replace('\n','')
+        url=url.replace('\r','')
         queue.put(url)
         number = number+1                     #统计url总数
     file.close()
