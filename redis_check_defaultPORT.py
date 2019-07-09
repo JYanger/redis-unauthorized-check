@@ -83,4 +83,4 @@ if __name__ == '__main__':
         print "[*]-----------------------start redis  unauthorized check start------------------------------------"
         print "[*]---------------|   ipaddress   |-----------|  port  |--------------|  type/pass  |--------------"
         run(sys.argv[1],int(sys.argv[2]))
-        print "[*]cherk all ip end, goodbey!"
+        print "[*]cherk all ip end, goodbye!"
